@@ -5,3 +5,44 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: rgb(156, 207, 244);
+}
+/* COMMON */
+
+/* leyout */
+.container {
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* Buttons */
+/* Utilitis */
+
+.px-20 {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.py-10 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.bg-white {
+    background-color: white;
+}
+/* HEADER */
+.logo img {
+    width: 60px;
+    vertical-align: middle;
+    vertical-align: middle;
+}
+
+.logo span {
+    font-size: 36px;
+    font-weight: 600;
+    vertical-align: middle;
+}
+/* Tool list */
