@@ -8,6 +8,10 @@
 body {
     background-color: rgb(156, 207, 244);
 }
+
+ul {
+    list-style: none;
+}
 /* COMMON */
 
 /* leyout */
@@ -22,12 +26,18 @@ body {
     padding: 4px 8px;
     border-radius: 5px;
     border: 1px solid black;
+    cursor: pointer;
 }
 
 .btn-blue {
     background-color: rgb(147, 201, 234);
     border-color: rgb(147, 201, 234);
     color: white
+}
+
+.btn-blue:hover {
+    background-color: rgb(69, 171, 235);
+    border-color: rgb(69, 171, 235);
 }
 
 .btn-white {
@@ -83,3 +93,56 @@ body {
     vertical-align: middle;
 }
 /* Tool list */
+
+.circle {
+    display: inline-block;
+    border: 1px solid black;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+
+}
+
+.check {
+    border-color: green;
+    color: green;
+}
+
+.cross {
+    border-color: rgb(250, 6, 6);
+    color: rgb(250, 6, 6);
+}
+
+.tag {
+    display: inline-block;
+    padding: 5px 10px;
+    color: white;
+    border-radius: 20px;
+}
+
+.Editorial {
+    background-color: rgb(49, 98, 244);
+}
+
+.Q1 {
+    background-color: rgb(190, 56, 231);
+}
+
+.Recruting {
+    background-color: rgb(56, 231, 56);
+}
+
+.mobile {
+    background-color: rgb(231, 176, 56);
+}
+
+.website {
+    background-color: pink;
+}
+
+.sales {
+    background-color: rgb(102, 166, 102);
+}
